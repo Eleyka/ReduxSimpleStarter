@@ -1,5 +1,5 @@
 import React from 'react';
-const Hobbysitem = ({name}) => (
+const Hobbysitem = ({name,url}) => (
   <li  className="list-hobbys">
     <div className="list">
       <div>
