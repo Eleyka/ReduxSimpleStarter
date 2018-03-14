@@ -3,7 +3,10 @@ const Hobbysitem = ({name}) => (
   <li  className="list-hobbys">
     <div className="list">
       <div>
-        <img className="img"/>
+        <img className="img"
+          src= {url}
+          alt ={name}
+        />
       </div>
      <div className="name">
       <p>{name}</p>
