@@ -1,8 +1,10 @@
 import React from 'react';
 import Hobbysitem from './Hobbysitem';
-const Hobbys = () =>(
+const Hobbys = ({hobbys}) =>(
   <ul className="listHobby">
-    <Hobbysitem />
+    <Hobbysitem 
+      key ={hobbys.name}
+    />
    
   </ul>
 )
