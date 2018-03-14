@@ -1,10 +1,9 @@
 import React from 'react';
+import Hobbysitem from './Hobbysitem';
 const Hobbys = () =>(
   <ul className="listHobby">
-    <li>Dormir</li>
-    <li>Comer</li>
-    <li>Bailar</li>
-    <li>Codear</li>
+    <Hobbysitem />
+   
   </ul>
 )
 export default Hobbys
