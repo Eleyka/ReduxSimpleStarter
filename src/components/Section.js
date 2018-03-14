@@ -1,5 +1,5 @@
 import React from 'react';
-import Hobbys from './list-hobbys';
+import Hobbys from './Hobbys';
 
 const Section = () =>(
   <section className="Section">
